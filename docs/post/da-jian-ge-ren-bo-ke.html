@@ -10,17 +10,19 @@
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
     </script>
-<meta name="description" content="test c5
+<meta name="description" content="
+## 1背景
 
-<!-- ##{'timestamp':1490764800}## -->。">
-<meta property="og:title" content="test z5">
-<meta property="og:description" content="test c5
+一次次偶然的机会阅读了《时间的朋友》，解决了我长久以来的疑惑：「在人生的道路上如何持续向前？」作者李笑来老师在书中给出了解答：「依靠积累」。">
+<meta property="og:title" content="搭建个人博客">
+<meta property="og:description" content="
+## 1背景
 
-<!-- ##{'timestamp':1490764800}## -->。">
+一次次偶然的机会阅读了《时间的朋友》，解决了我长久以来的疑惑：「在人生的道路上如何持续向前？」作者李笑来老师在书中给出了解答：「依靠积累」。">
 <meta property="og:type" content="article">
-<meta property="og:url" content="http://zhudongdong.com/post/test%20z5.html">
+<meta property="og:url" content="http://zhudongdong.com/post/da-jian-ge-ren-bo-ke.html">
 <meta property="og:image" content="https://github.githubassets.com/favicons/favicon.svg">
-<title>test z5</title>
+<title>搭建个人博客</title>
 
 
 
@@ -53,7 +55,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 
 <body>
     <div id="header">
-<h1 class="postTitle">test z5</h1>
+<h1 class="postTitle">搭建个人博客</h1>
 <div class="title-right">
     <a href="http://zhudongdong.com" id="buttonHome" class="btn btn-invisible circle" title="首页">
         <svg class="octicon" width="16" height="16">
@@ -61,7 +63,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
         </svg>
     </a>
     
-    <a href="https://github.com/zhud10/zhud10.github.io/issues/4" target="_blank" class="btn btn-invisible circle" title="Issue">
+    <a href="https://github.com/zhud10/zhud10.github.io/issues/7" target="_blank" class="btn btn-invisible circle" title="Issue">
         <svg class="octicon" width="16" height="16">
             <path id="pathIssue" fill-rule="evenodd"></path>
         </svg>
@@ -77,8 +79,14 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
 </div>
     <div id="content">
-<div class="markdown-body" id="postBody"><p>test c5</p>
-</div>
+<div class="markdown-body" id="postBody"><h2>1背景</h2>
+<p>一次次偶然的机会阅读了《时间的朋友》，解决了我长久以来的疑惑：「在人生的道路上如何持续向前？」作者李笑来老师在书中给出了解答：「依靠积累」。茅塞顿开之余，顺藤摸瓜又找到了他的微博和博客，再一次见证积累的力量。向前辈致敬的最好方式就是按照他的建议去「践行」，就从搭建博客开始在网上的积累吧。</p>
+<h2>2 搭建博客</h2>
+<p>照着教程上的步骤去设置时，第一步拉取工程后，在第二步寻找Settings按钮时，我错误地在个人账户下的侧边栏开始寻找。没看到Build and deployment，误以为要先申请一个域名，随即就在阿里云注册了自己名字拼音的域名。配置后仍然没有看到对应的结果，对照着视频发现了问题所在，原来是要在repository中查找。这让我看到了文字、视频等多种说明方式的作用，对有经验者，可能显得多余，可是小白使用者却显得十分贴心。</p>
+<h2>3 添加自定义域名</h2>
+<p>自己的网站页面显示正常后，又按照教程熟悉了文章的发布、删除和修改，基本掌握了使用方式。既然买了域名，接着又尝试把自定义域名配置好。吸取了前面急于求成下的不仔细教训，这次就认真地看对应的英文文档，不懂的地方就借助kimi、豆包 的帮助，很快就完成了在仓库和阿里云的配置，看了一眼<a href="http://zhudongdong.com" rel="nofollow">效果</a>，很满意。</p>
+<h2>4 总结</h2>
+<p>再次提醒自己「绝不急于求成」，一步一步向前走，就是最快的到达目的地的方式。电视剧白蛇传中有个片段，法海和小青比赛在佛祖面前叩头，先完成1000个的人赢。小青开头就使上了最快的速度，而法海却不慌不忙，每一次都先整理袈裟，再跪下膝盖，虔诚叩拜。结果就是越到后来，小青越感觉无法继续，法海却一如既往的向前，直至完成。日常生活和计划，也要借鉴法海的方式，多做重要而不紧急的事情。</p></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
@@ -137,11 +145,7 @@ console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n","padding:5px 
 <script>
 document.getElementById("pathHome").setAttribute("d",IconList["home"]);
 document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
-cmButton=document.getElementById("cmButton");
-    span=document.createElement("span");
-    span.setAttribute("class","Counter");
-    span.innerHTML="1";
-    cmButton.appendChild(span);
+
 
 
 function openComments(){
