@@ -3,5 +3,6 @@
     "subTitle":"一切从零开始，永不急于求成",
     "avatarUrl":"https://zhud10.github.io/avatar.JPG",
     "GMEEK_VERSION":"last",
-    "homeUrl":"http://zhudongdong.com"
+    "homeUrl":"http://zhudongdong.com",
+    "singlePage":["about"]
 }
