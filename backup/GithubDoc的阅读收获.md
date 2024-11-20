@@ -1,5 +1,4 @@
 近2周多的闲余时间，都用来阅读GitHub的官网文档，发现它的功能确实太全了，包含了从项目的组织搭建、代码编写、团队合作、项目测试、运行监测、以及后期的构建维护、项目迭代，并且每一步都可以看作当下的最优实践。配合详尽全面的文档，无愧"Build and ship software on a single, collaborative platform"的口号。下面是对阅读中的一些收获的记录。
- 
 ### 1 [md 的写作](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 markdown 格式是目前最方便写作和最方便阅读的文档格式，自己也已经使用多年，可是对于常用功能的理解并未深入，比如标题的不同级别代表什么？为什么个别文字使用\`\`修饰、有的段落使用\>修饰？如何快速设置字体的加粗和倾斜？对于一些较少使用的功能，总是临时通过搜索去解决，比如如何插入一个表格？如何插入脚注？如何插入图片？在思路被打断后，感觉很不舒服。
 
